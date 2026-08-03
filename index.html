@@ -33,6 +33,19 @@
     /* Brand typography and clean mobile hero */
     body{font-family:Poppins,system-ui,sans-serif}.logo{font-family:'Archivo Black',sans-serif}.logo span{font-family:Poppins,sans-serif;font-weight:800}.links{font-family:Poppins,sans-serif;font-weight:600}.hero h1{font-family:'Lilita One',sans-serif;font-weight:400}.hero h1 small{font-family:Poppins,sans-serif;font-weight:800;text-shadow:none}.hero-copy p{font-family:Poppins,sans-serif;font-weight:800}.heading,.detail h2,.about h2,.thanks,.cart h2{font-family:'Lilita One',sans-serif}.btn{font-family:Poppins,sans-serif;font-weight:800;box-shadow:none}.cat strong,.product h3,.price{font-family:'Baloo 2',sans-serif;font-weight:800}
     @media(max-width:800px){.hero{background:var(--cream)}.hero:before{content:'';position:absolute;z-index:0;right:-25%;bottom:-12%;width:90%;height:72%;background:var(--yellow);border-radius:50% 0 0 0;transform:rotate(-8deg)}.hero h1{text-shadow:none}.hero h1 small{position:relative;z-index:2}.hero .btn{position:relative;z-index:2;box-shadow:none}}
+
+    /* Título principal con la tipografía redondeada de la segunda referencia */
+    .hero-copy h1{
+      font-family:'Lilita One',cursive !important;
+      font-weight:400 !important;
+      font-style:normal;
+      letter-spacing:1px;
+      line-height:.78;
+      text-shadow:4px 5px 0 #fff;
+    }
+    @media(max-width:800px){
+      .hero-copy h1{text-shadow:4px 5px 0 #fff}
+    }
   </style>
 </head>
 <body>
